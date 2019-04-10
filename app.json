@@ -1,0 +1,8 @@
+{
+  "name": "kopstoot",
+  "description": "Ode aan de bruine kroegen van Utrecht",
+  "repository": "https://github.com/SamvanAsch/kopstoot",
+  "logo": "",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

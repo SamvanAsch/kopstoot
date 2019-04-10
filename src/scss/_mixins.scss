@@ -1,0 +1,15 @@
+
+@mixin linkStyles ($tag, $color: map-get($theme-colors, 'blue')) {
+  #{$tag} {
+    cursor: pointer;
+    transition: color $transition-speed;
+    color: $color;
+    &:visited {
+      color: $color;
+    }
+    &:hover, &:active {
+      text-decoration: none;
+      color: darken($color, $darkenerPercentile);
+    }
+  }
+}

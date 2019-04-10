@@ -1,0 +1,7 @@
+.badge {
+  @each $key, $color in $theme-colors {
+    &.badge-#{$key} {
+      background-color: $color !important;
+    }
+  }
+}
